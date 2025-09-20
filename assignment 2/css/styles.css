@@ -1,0 +1,209 @@
+/* Task 1 */
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Rodin;
+    src: url('Rodin_font.otf');
+}
+
+.header{
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+    font-size: 30px;
+    width: auto;
+    height: 50px;
+    background-color: #4FB7B3;
+}
+
+.outer_nav_bar{
+    height: 46px;
+    background-color: #4C5B61;
+}
+
+.nav_bar{
+    background-color: #2C423F;
+    margin: auto;
+    width: fit-content;
+    
+}
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar ul li{
+    float:left;
+}
+
+.nav_bar li a{
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #A8FBD3;
+}
+
+
+.nav_bar li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.sidebar{
+    font-family: Rodin;
+    float: left;
+    margin: 8px;
+    border: 2px lightseagreen solid;
+    height: 300px;
+    width: 220px;
+    background-color: #c9c8c8;
+}
+
+.aside{
+    font-family: Rodin;
+    margin: 8px;
+    border: 2px lightseagreen solid;
+    display: inline-block;
+    height: 240px;
+    width: 1200px;
+    background-color: #b7b7b7;
+}
+
+.footer{
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    font-size: 15px;
+    width: 100%;
+    background-color: #4FB7B3;
+    position: absolute;
+    top: 150%;
+    height: 40px;
+}
+
+/* Task 2 */
+
+.content{
+    background-color: white;
+    width: 800px;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content img{
+    padding: 10px;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px #2C423F;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content ul{
+    position: relative;
+    left: 5px;
+    padding: 20px;
+    list-style-type: square;
+}
+
+.button form{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+
+.content p{
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Task 3 */
+
+#page_heading{
+    color:pink;
+    font-family: Rodin, sans-serif;
+}
+
+.table {
+    margin: auto;
+    width: fit-content;
+    font-size: 1.5em;
+}
+
+.table td,th{
+    min-width: 200px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    border: #2C423F 1px solid;
+}
+
+.table th{
+    background-color: #2C423F;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #868686;
+}
+
+.highlight-row{
+    color: white;
+    background-color: #481620;
+}
+
+.form-container {
+    width: 400px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-container label {
+    display: inline;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-container select,textarea,input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#submit{
+    width: 100%;
+    background-color: #481620;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+p{
+    margin: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
